@@ -1,0 +1,84 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+/*hero image and text*/
+.bg-img {
+    background-image: url("../images/spinning-record-player-with-vintage-vinyl.jpg");
+    min-height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.container-hero {
+    position: absolute;
+    margin: 20px;
+    width: auto;
+}
+
+.topnav {
+    overflow: hidden;
+}
+
+.topnav a {
+    margin-right: 2em;
+    color: #F2F2F2;
+    padding: 14px 16px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.topnav a:hover {
+    color: black;
+}
+
+.hero-text {
+    font-size: 20px;
+    margin-top: 10em;
+    float: right;
+    color: #D97373;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/*texto*/
+.paragraph {
+    margin-left: 7em;
+    margin-right: 7em;
+    margin-top: 3em;
+    margin-bottom: 3em;
+    font-family: 'Space Mono', monospace;
+    text-align: justify;
+}
+
+/*video*/
+iframe {
+    margin: 2em;
+}
+
+/*footer*/
+.footer {
+    background-image: conic-gradient(from 177deg at 0% 100%, rgb(84, 71, 63) 0%, rgb(225, 218, 210) 100%);
+}
+
+.footer ul {
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    list-style-type: none;
+    padding: 3em;
+    margin: 0;
+}
+
+.footer a {
+    color: white;
+}
+
+
+
+

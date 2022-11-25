@@ -1,0 +1,36 @@
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 20%;
+    margin: 2em;
+    background-color: white;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+    padding: 2px 16px;
+}
+
+.wrap {
+    display: flex;
+    flex-flow: wrap;
+}
+
+#card {
+    background-color: #D97373;
+}
+
+.container h1, h2, h3, h4 {
+    text-align: center;
+    font-family: 'Space Mono', monospace;
+}
+
+.container p {
+    font-family: 'Space Mono', monospace;
+}
+
+
+
